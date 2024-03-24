@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="Collection.Emp" name="emp">
+        <property name="name" value="Utkarsh"/>
+        <property name="phone">
+            <list>
+                <value>1234</value>
+                <value>4567</value>
+                <value>7890</value>
+                <value>3456</value>
+            </list>
+        </property>
+        <property name="address">
+            <set>
+                <value>Duhai</value>
+                <value>Muradnagar</value>
+                <value>Delhi</value>
+                <value>Meerut</value>
+            </set>
+        </property>
+
+        <property name="course">
+            <map>
+                <entry key="java" value="1 month"/>
+                <entry key="python" value="2 month"/>
+                <entry key="JS" value="3 month"/>
+                <entry key="HTML" value="4 month"/>
+            </map>
+        </property>
+
+        <property name="email">
+            <props>
+                <prop key="admin">Admin@gmail.com</prop>
+                <prop key="support">suppot@gmail.com</prop>
+                <prop key="customer">customer@gmail.com</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
