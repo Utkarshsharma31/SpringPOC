@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="ReferenceType.A" name="a">
+        <property name="name" value="utkarsh" />
+        <property name="obj" ref="b"/>
+
+    </bean>
+    <bean class="ReferenceType.B" name="b">
+        <property name="phone" value="12345677"/>
+
+    </bean>
+</beans>
