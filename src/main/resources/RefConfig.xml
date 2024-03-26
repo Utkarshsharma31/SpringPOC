@@ -14,6 +14,6 @@
     </bean>
 
 <!--    With P-schema-->
-    <bean class="ReferenceType2.A" name="a2" p:name="Aakarsh" p:obj-ref="b"/>
+    <bean class="ReferenceType2.A" name="a2" p:name="Aakarsh" p:obj-ref="b2"/>
     <bean class="ReferenceType2.B" name="b2" p:phone="98765"/>
 </beans>
