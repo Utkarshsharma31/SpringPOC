@@ -1,4 +1,4 @@
-package ReferenceType;
+package ReferenceType2;
 
 public class A {
 

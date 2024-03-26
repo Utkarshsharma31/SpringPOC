@@ -3,17 +3,17 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="ReferenceType.A" name="a" >
+    <bean class="ReferenceType2.A" name="a" >
         <property name="name" value="utkarsh" />
         <property name="obj" ref="b"/>
 
     </bean>
-    <bean class="ReferenceType.B" name="b">
+    <bean class="ReferenceType2.B" name="b">
         <property name="phone" value="12345677"/>
 
     </bean>
 
 <!--    With P-schema-->
-    <bean class="ReferenceType.A" name="a2" p:name="Aakarsh" p:obj-ref="b"/>
-    <bean class="ReferenceType.B" name="b2" p:phone="98765"/>
+    <bean class="ReferenceType2.A" name="a2" p:name="Aakarsh" p:obj-ref="b"/>
+    <bean class="ReferenceType2.B" name="b2" p:phone="98765"/>
 </beans>

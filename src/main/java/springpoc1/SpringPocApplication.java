@@ -1,4 +1,4 @@
-package com.example.springpoc;
+package springpoc1;
 
 
 import org.springframework.context.ApplicationContext;
